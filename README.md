@@ -14,8 +14,10 @@ http://localhost:8080/users
     "password":"password"
 }
 --//
-http://localhost:8080//sessions
+http://localhost:8080/sessions
 {
     "email": "user@example.org",
     "password":"password"
 }
+--//
+http://localhost:8080/private/whoami
